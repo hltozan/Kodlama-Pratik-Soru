@@ -1,0 +1,12 @@
+1. Başla.
+2. Bir metin listesi (words) oluştur. listenin boyutunu ve her bir kelimenin alabileceği uzunluğunu (MAX_LENGTH) belirle ve listeye kelimeler ekle. 
+3. findWordsStartingWithA fonksiyonunu tanımla ve metin listesi ile metin listesinin boyutunu (kelime sayısı) parametre olarak al.
+4. printf fonksiyonunu kullanarak "a" ile başlayan kelimelerin yazdırılacağı bir çıktı oluştur.
+5. Bir döngü kullanarak metin listesindeki her bir kelimeyi kontrol et.
+    5.1. Bir index değişkeni (i) oluştur ve 0'dan başlatarak her bir kelimeyi sırayla tarayarak ilerle.
+    5.2. Her bir kelimenin ilk karakterini kontrol et.
+        5.2.1. Eğer ilk karakter "a" veya "A" ise, bu kelimeyi "a" ile başlayan bir kelime olarak kabul et.
+        5.2.2. Bulunan "a" ile başlayan kelimeleri printf fonksiyonuyla ekrana yazdır.
+6. Programın çıktısı olarak "a" ile başlayan kelimeleri ekrana yazdır.
+7. Programın sonunda 0 değerini döndürerek işlemi tamamla.
+8 Bitir.

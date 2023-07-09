@@ -1,0 +1,30 @@
+1. Başla.
+2. stdio.h ve stdlib.h dosyalarını içeri aktar.
+3. Bir bağlı liste düğüm yapısı (struct Node) tanımla. Her düğüm data adında bir veriye ve next adında bir işaretçiye sahip olsun.
+4. countNodes fonksiyonunu tanımla ve head düğümünü parametre olarak al.
+    4.1. Bir sayaç (count) oluştur ve başlangıçta 0 olarak ayarla.
+    4.2. Geçici bir düğüm işaretçisi (current) oluştur ve onu head düğümüyle aynı değere ayarla.
+    4.3. While döngüsünü kullanarak current NULL olana kadar devam et.
+        4.3.1. count'u bir artır.
+        4.3.2. current'i current'in next işaretçisiyle bir sonraki düğüme ilerlet.
+    4.4. Döngü tamamlandığında count değerini döndür.
+5. main fonksiyonunu başlat.
+6. head düğümünü NULL olarak ayarla (boş bir bağlı liste oluştur).
+7. Bir for döngüsü kullanarak 0'dan 9'a kadar olan sayılarla bir döngü oluştur.
+    7.1. Yeni bir düğüm (newNode) oluştur ve rand() fonksiyonunu kullanarak rastgele bir sayı ata.
+    7.2. newNode'un next işaretçisini NULL olarak ayarla.
+    7.3. If-Else yapısını kullanarak bağlı listenin boş olup olmadığını kontrol et.
+        7.3.1. Eğer head NULL ise (bağlı liste boşsa) newNode'u head olarak ayarla. Değilse adım 7.3.2'ye git.
+        7.3.2. Geçici bir düğüm işaretçisi (temp) oluştur ve onu head düğümüyle aynı değere ayarla.
+        7.3.3. While döngüsünü kullanarak temp'in next işaretçisi NULL olana kadar devam et.
+            7.3.3.1. temp'i temp'in next işaretçisiyle bir sonraki düğüme ilerlet.
+        7.3.4. temp'in next işaretçisini newNode ile ilişkilendir.
+8. Eleman sayısını hesaplamak için countNodes fonksiyonunu çağır ve sonucu nodeCount değişkenine ata.
+9. Eleman sayısını printf fonksiyonuyla ekrana yazdır.
+10. Bir current oluştur ve onu head düğümüyle aynı değere ayarla.
+11. Bir while döngüsü kullanarak current NULL olana kadar devam et.
+    11.1. Geçici bir düğüm işaretçisi (temp) oluştur ve onu current düğümüyle aynı değere ayarla.
+    11.2. current'i current'in next işaretçisiyle bir sonraki düğüme ilerlet.
+    11.3. temp'i free fonksiyonuyla serbest bırak.
+12. Programın sonunda 0 değerini döndürerek işlemi tamamla.
+13. Bitir.

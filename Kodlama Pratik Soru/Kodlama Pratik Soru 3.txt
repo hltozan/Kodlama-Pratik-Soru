@@ -1,0 +1,13 @@
+1. Başla.
+2. Bir dizi oluştur. Dizinin boyutunu (SIZE) belirle ve diziye elemanlar ekle.
+3. findDuplicates fonksiyonunu tanımla ve dizi ve dizinin boyutunu parametre olarak al.
+4. printf fonksiyonunu kullanarak tekrar eden elemanların yazdırılacağı bir çıktı oluştur.
+5. İç içe geçmiş iki döngü kullanarak, dizinin her bir elemanını diğer elemanlarla karşılaştır.
+    5.1. Dış döngüde i değişkenini 0'dan başlatarak son elemana kadar ilerle.
+    5.2. İç döngüde j değişkenini i + 1'den başlatarak son elemana kadar ilerle.
+    5.3. Karşılaştırma yaparken arr[i] ile arr[j]'yi karşılaştır.
+        5.3.1. Eğer arr[i] ve arr[j] birbirine eşitse bu eleman tekrar eden bir elemandır.
+        5.3.2. Eşleşen elemanı printf fonksiyonuyla ekrana yazdır.
+6. Programın çıktısı olarak tekrar eden elemanlar ekrana yazdırılır.
+7. Programın sonunda 0 değerini döndürerek işlemi tamamla.
+8. Bitir.

@@ -1,0 +1,13 @@
+1. Başla.
+2. Bir dizi tanımla ve içine örnek verileri ekle.
+3. Dizinin boyutunu sizeof(arr) / sizeof(arr[0]) ile hesapla.
+4. findMax fonksiyonunu tanımla ve dizi ve boyutunu parametre olarak al.
+    4.1. max adında bir değişken tanımla ve başlangıçta arr[0] değerini en büyük sayı olarak ata.
+    4.2. Bir for döngüsü kullanarak dizinin ikinci elemanından başlayarak son elemanına kadar dolaş.
+        4.2.1. Her adımda mevcut eleman max değerinden büyükse max değişkenini güncelle ve mevcut elemanı yeni en büyük sayı olarak ata.
+    4.3. Döngü tamamlandığında max değerini döndür.
+5. main fonksiyonunu başlat.
+6. findMax fonksiyonunu çağırarak dizideki en büyük sayıyı bul ve maxNum değişkenine ata.
+7. En büyük sayıyı printf fonksiyonuyla ekrana yazdır.
+8. Programın sonunda 0 değerini döndürerek işlemi tamamla.
+9. Bitir.
